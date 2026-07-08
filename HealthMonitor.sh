@@ -9,7 +9,7 @@ echo "To check free space"
 df -h
 
 echo "To list all the processes running"
-ps -a 
+ps -ef
 
 echo "To check total available cpu"
 nproc
