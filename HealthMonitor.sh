@@ -19,4 +19,7 @@ nproc
 echo "To check total available cpu"
 ps -ef | grep aws | awk -F" " '{print $2}'
 
+echo "Print error logs from a remote log"
+curl $url | grep error
+
 exit 0
